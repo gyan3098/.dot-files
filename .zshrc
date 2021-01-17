@@ -107,30 +107,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias nv='nvim'
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
-alias sublist3r='python3 /opt/Sublist3r/sublist3r.py'
-alias ROPgadget='/home/arrow/.local/bin/ROPgadget'
-alias Cutter='/home/arrow/Downloads/Cutter-v1.12.0-x64.Linux.AppImage &'
-export GOPATH=/home/arrow/go
-export PATH=$PATH:$GOPATH/bin
-export GOPATH=$GOPATH:/home/arrow/Documents/goLearn
-alias viHelp='less ~/Documents/vim-essential.txt'
-d='dirs -v | head -10'
-1='cd -'
-2='cd -2'
-3='cd -3'
-4='cd -4'
-5='cd -5'
-6='cd -6'
-7='cd -7'
-8='cd -8'
-9='cd -9'
-alias connectToHTB='sudo openvpn ~/Desktop/hackTheBox/arrow1326.ovpn'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias burpy='cd /home/arrow/Documents/burpsuite-pro-installation; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'
